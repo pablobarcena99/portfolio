@@ -1,14 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/cascadia-code");
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
-@font-face {
-  font-family: NeueMetana-Bold;
-  font-weight: bold;
-  src: url("./fonts/NeueMetana-Bold.woff") format("woff");
-}
 
 :root {
-  font-family: NeueMetana-Bold !important;
+  font-family: Krona One !important;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -26,5 +22,5 @@
 
 h1, h2, h3, h4, h5, p, a , div{
   /* font-family: Poiret One; */
-  font-family: NeueMetana-Bold;
+  font-family: Krona One;
 }

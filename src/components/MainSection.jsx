@@ -12,23 +12,27 @@ const SectionBackground = styled.div`
 const Section = styled.div`
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
   gap: 50px;
 `;
 const Title = styled.h2`
   color: white;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
+  /* writing-mode: vertical-lr;
+  transform: rotate(180deg); */
   font-size: calc(1rem + 3vw);
   margin: 0px;
 `;
 const Content = styled.div`
 display: flex;
+flex-wrap: wrap;
 min-height: 40px;
+justify-content: center;
 gap: 30px;
 
 img{
-  max-height: 200px;
+  max-height: 280px;
   border-radius: 20px;
+  min-width: 280px;
 }
 
 `

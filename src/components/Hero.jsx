@@ -26,16 +26,16 @@ const SectionBackground = styled.div`
   background-color: #000000;
 `;
 
-export default class Hero extends Component {
+export class Hero extends Component {
   render() {
     return (
       <>
         <SectionBackground>
           <Container>
             <Section>
-              <h1>art3k studios.</h1>
+              <h1>pablo.</h1>
               <h2>
-                I'm pablo barcena a <span>frontend</span> developer
+                I'm Pablo Bárcena a <span>frontend</span> developer
               </h2>
             </Section>
           </Container>
@@ -44,3 +44,4 @@ export default class Hero extends Component {
     );
   }
 }
+export default Hero;
