@@ -19,7 +19,7 @@ const Title = styled.h2`
   color: white;
   /* writing-mode: vertical-lr;
   transform: rotate(180deg); */
-  font-size: calc(1rem + 3vw);
+  font-size: calc(1rem + 1.5vw);
   margin: 0px;
 `;
 const Content = styled.div`

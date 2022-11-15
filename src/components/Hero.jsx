@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import styled from "styled-components";
 
 const Section = styled.div`
-  background-color: black;
   min-height: 700px;
   display: flex;
   align-items: left;
@@ -23,7 +22,7 @@ const Section = styled.div`
 `;
 
 const SectionBackground = styled.div`
-  background-color: #000000;
+  background-color: #151515;
 `;
 
 export class Hero extends Component {
